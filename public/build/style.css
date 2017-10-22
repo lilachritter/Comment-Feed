@@ -1,0 +1,64 @@
+.compose-comment-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #dce3e8;
+  padding: 10px; }
+
+.input-fields {
+  display: flex;
+  flex-direction: column; }
+
+.input-fields input {
+  margin-top: 10px;
+  border-radius: 3px;
+  padding: 6px; }
+
+.input-fields textarea {
+  margin-top: 10px;
+  border-radius: 3px;
+  font: 13.3333px Arial;
+  height: 80px;
+  padding: 6px; }
+
+.submit {
+  margin-top: 10px;
+  text-align: right; }
+
+.submit button {
+  background-color: #44ade2;
+  border: none;
+  color: white;
+  padding: 10px;
+  min-width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  outline: none; }
+.comment-wrapper {
+  padding: 10px 0 10px 0;
+  overflow-wrap: break-word;
+  font-weight: bold;
+  font-size: 13.5px; }
+.comments-body__filter {
+  margin: 10px 0; }
+
+.comments-body__filter input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+  border-radius: 3px; }
+.comments-body-wrapper {
+  padding: 10px;
+  background-color: #FBFBFB; }
+
+.comments-body__loading {
+  margin: 0 auto; }
+.commentFeed-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  width: 400px;
+  border: 10px solid #f3f5f7; }
+
+/*# sourceMappingURL=style.css.map*/
