@@ -1,0 +1,39 @@
+.compose-comment-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #dce3e8;
+  padding: 10px; }
+
+.input-fields {
+  display: flex;
+  flex-direction: column; }
+
+.input-fields input {
+  margin-top: 10px;
+  border-radius: 3px;
+  padding: 6px; }
+
+.input-fields textarea {
+  margin-top: 10px;
+  border-radius: 3px;
+  font: 13.3333px Arial;
+  height: 80px;
+  padding: 6px; }
+
+.submit {
+  margin-top: 10px;
+  text-align: right; }
+
+.submit button {
+  background-color: #44ade2;
+  border: none;
+  color: white;
+  padding: 10px;
+  min-width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  outline: none; }
+
+/*# sourceMappingURL=composeComment.css.map */
