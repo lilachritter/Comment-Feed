@@ -4,8 +4,8 @@
   "description": "My first npm project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --progress --colors --watch -d",
-    "build": "node server/server.js",
+    "start": "node server/server.js",
+    "build": "webpack --progress --colors --watch -d",
     "create-db": "mongo bin/create-db.js"
   },
   "author": "LilachRitter",
