@@ -1,5 +1,5 @@
 # Comment-Feed
-Comment feed app using mongodb-node-express-react-redux
+Simple comment feed app using mongodb-node-express-react-redux.
 
 ### In order to run the app, make sure you have installed:
 1. Node.JS : https://nodejs.org/en/download/
