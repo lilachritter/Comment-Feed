@@ -7,7 +7,11 @@ var config = module.exports;
     adminUser = dbConf.adminUser;
     mongoUrl =  dbConf.host + ':' + dbConf.port + '/' + dbConf.adminDbName;
 
-var db = connect(mongoUrl, adminUser.userName, adminUser.pswd);
+if (adminUser.userName && adminUser.pswd) {
+    var db = connect(mongoUrl, adminUser.userName, adminUser.pswd);
+} else {
+    var db = connect(mongoUrl);
+}
 
 db = db.getSiblingDB(dbConf.commentsDBName);
 
