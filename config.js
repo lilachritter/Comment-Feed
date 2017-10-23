@@ -6,8 +6,8 @@ module.exports = {
         commentsDBName: 'Commentsdb',
         collectionName: 'comments',
         adminUser: {
-            userName: 'admin',
-            pswd: 'rap2el'
+            userName: '',
+            pswd: ''
         },
         CommentsDBUser : {
             userName: 'commentsdbUser',
